@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style type="text/css">
+.wrap{
+	width: 800px;
+	margin: 200px auto;
+}
+.wrap div{
+	border: 3px solid #ccc;
+	height: 68px;
+	width: 60px;
+	box-sizing:border-box;
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 68px;
+}
+.box2{
+	transform: skewX(30deg);
+}
+.box3{
+	transform: scaleX(0.5);
+}
+.box4{
+	transform: rotate(45deg);
+}
+.box5{
+	transform: translate(10px,20px);
+}
+.box6{
+	transform: skewX(30deg) scaleX(0.5) rotate(45deg) translate(10px,20px);
+}
+</style>
+<body>
+	<div class="wrap">
+		<div class="box1">box1</div>
+		<div class="box2">box2</div>
+		<div class="box3">box3</div>
+		<div class="box4">box4</div>
+		<div class="box5">box5</div>
+		<div class="box6">box6</div>
+	</div>
+</body>
+</html>
